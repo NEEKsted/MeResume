@@ -1,0 +1,63 @@
+
+		
+		.container-fluid-background{
+		 background-color:rgba(0, 0, 0, 0.4);
+		
+		<!-- opacity:0.1; -->
+		}
+		
+		
+		body{
+		background-image:url('../images/programming.jpg');
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-size:cover;
+		background-color:rgba(0,0,0,0.9);
+		}
+		
+		.container-fluid{
+		<!-- background-color:rgba(0,0,0,0.9) -->;
+		padding:0% 5%
+		}
+		
+		
+		div{
+			<!-- border:1px solid teal; -->
+			min-height:100px;
+			
+		}
+		
+		
+		#nav{
+		position:sticky; top:0px;
+		background-color:MediumSeaGreen;
+		}
+		
+		
+		.border(
+		border:20% ridge gray;
+		)
+		
+		.height{
+		height:20px;
+		}
+		
+		p{
+		line-height:1.2;
+		font-family:cambria, 'times new rom', serif;
+		font-size:20px
+		
+		}
+		
+
+		#margin1{
+		margin:3%;
+		}
+		
+		a{
+		text-decoration:none;
+		background-color:MediumSeaGreen;
+		color:black;
+		border:2px solid ;
+		}
+		

@@ -1,0 +1,357 @@
+<DOCTYPE html>
+<html>
+<head>
+
+<title>KFH FORM</title>
+<style type="text/css">
+body{
+		font-size:3vw;
+		background-image:url('../images/sonic.jpeg');
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-size:cover;
+		opacity:1.0;
+		margin:4%;
+		color:orange;
+		}
+.background{
+	background-color:rgba(0,50,100,0.5)
+	}
+	.header{
+		display:flex;
+		position:sticky; top:0px;
+		background-color:rgba(229, 230, 228, 0.9);
+		
+	}
+
+.header{
+		display:flex;
+		position:sticky; top:0px;
+		background-color:rgba(229, 230, 228, 0.9);
+		
+	}
+
+.headerone{
+	width:10%;
+	height:40px;
+	border-radius:0 90% 0  70%;
+	position:relative; left:10px;
+	position:relative; top: 30px;
+	font-family:impact,'arial black', san serif;
+	background-color:rgb(241, 113, 5);
+	font-size:50%;
+	padding:3%;
+
+	}
+	
+.paragraph{
+	line-height: 0.3;
+	}
+	
+.headerone:hover{
+	font-family:'arial black',impact, sans-serif;
+	font-weight:bold;
+	width:15%;
+	background-color:rgba(241, 113, 5,0.9);
+	}
+	
+.headerone, .headertwo{
+	margin:auto;
+	}
+	
+	
+.headertwo{
+	margin:auto
+	}
+	
+	
+.link{
+		text-decoration:none;
+		list-style-type:none;
+		font-family:impact, arial, sans serif;
+		color:rgb(255, 136, 17);
+		border:3px ridge rgb(241, 113, 5);
+	}
+
+li{
+	display:inline-block;
+	}
+	
+	
+#content{
+		display:flex;
+		padding:5% 10% 1% 10%;
+		justify-content:space-between
+	
+	}
+
+#contentone{
+	padding-left:1% 5%;
+	background-color: rgba(229, 230, 228, 0.9);
+	margin: 4% 0%;
+	}
+
+h2,p{
+	text-align:center;
+	}
+
+p	{
+	font-family:arial, verdana,sans-serif;
+	font-size:0.9vw;
+	}
+#funtimes{
+	font-family:Claredon, 'times new roman', serif;
+	background-color:orange;`
+	}
+
+#one{
+	display:flex;
+	justify-content:space-around;
+	padding:4px;
+	}
+	
+.tickets{
+	width:80%;
+	height:50px;
+	margin-left:10%;
+	}
+	
+#soon{
+	justify-content:space-around;
+	}
+	
+a{
+	text-decoration:none;
+	color:gray;
+	text-weight:bold;
+	}
+	
+	
+	#contenttwo{
+	width:100%;
+	margin:5%;
+	background-color:rgba(229, 230, 228, 0.9);
+	padding:5%;
+	
+		
+	}
+
+	.terms{
+	width:23%;
+	position:absolute; top:px;
+	margin-left:5%;
+	background-color:#eaeaeaff;
+	}
+	
+	#services{
+	display:flex;
+	justify-content:space-around;
+	
+	}
+
+	#serviceone{
+	width:25%;
+	height:300px;
+	background-color:red;
+	}
+
+	#social div{
+		display:float;
+	}
+
+	img{
+		width:40px;
+	}
+	
+	img:hover{
+		width:100%;
+		height:80px;
+		
+	}
+
+	#social{
+		position:fixed; bottom:20px;
+		position:fixed; right:30px;
+		display:float;
+	}
+	
+	#socials{
+	display:float;
+	}
+	
+	embed{
+	box-shadow:10px 10px grey;
+	}
+	
+	#watch{
+	background-color:rgba(241, 113, 5,0.9);
+	}
+
+	.footer{
+		height:60px;
+	}
+
+		</style>
+		</head>
+		
+		
+		
+		<body>
+		
+		
+			<!--topdiv-->
+			<div class='main'>
+			<div class='overlay'>
+			
+			<!--content-->
+			<div>
+				<div class='header'>
+					<div class='headerone hover'><h3 class='paragraph'>Kiddies Fun House</h3><hr></div>
+					
+					<div class='headertwo'>
+					<ul>
+						<li><a href='../index.html' class='link'>Home</a></li>
+						<li><a href='#'class='link'>Streaming</a></li>
+						<li><a href='#' class='link'>Coming Soon</a></li>
+						<li><a href='#' class='link'>Register and Watch</a></li>
+					</ul>
+					</div>
+				</div>
+	
+<form action="process" method='get'>
+</form>
+<div class='background'>
+<div>
+<label>Email</label>
+<input type="email" id="mailbox" name='mail'
+/></div>
+
+<div>
+<label>Do you want email notifications</label>
+<input type="radio" value="n" id="notifications" name='mail notification'
+/>
+</div>
+
+<div>
+
+
+<div>
+<label>Passcode</label>
+<input type="identity" id="password" name='security'
+/>
+</div>
+
+
+<div>
+<label>Gender</label>
+<input type="radio" value="m" id="difference" name='Gender'
+/>male
+<input type="radio" value="f"id="difference" name='Gender'
+/>female
+</div>
+
+
+
+<div>
+
+
+
+<h5><label>Hobbies</label></h5>
+
+<input type="checkbox" name='hobbies1'
+/>dancing
+
+<input type="checkbox" name='hobbies2'
+/>singing
+<br>
+<input type="checkbox" name='hobbie3'
+/>cooking
+
+<input type="checkbox" name='hobbies4'
+/>sports
+
+<div>
+
+<label>profile picture </label>
+<input type='file' name="dp" multiple />
+
+<label>profile picture </label>
+<input type='file' name="dp"/>
+</div>
+
+<div>
+<label><b>Your Favorite Movies</b></label>
+<br>
+<textarea name='reviews' rows="5" cols="50">  please list a PG rated movie</textarea>
+</div>
+
+<div>
+<label><b>Obsessions About Favorite Movies</b></label>
+<br>
+<textarea name='reviews' rows="5" cols="50">take a deep breathe.... and write</textarea>
+</div>
+<hr>
+<div>
+<label><b>Your Worse Movies</b></label>
+<br>
+<textarea name='reviews' rows="5" cols="50"> please list a PG rated movie</textarea>
+</div>
+
+<div>
+ <label><b>Worse Scenes</b></label>
+<br>
+<textarea name='reviews' rows="5" cols="50"> take a breathe out.... and write</textarea>
+</div>
+
+
+<h5><label>Your Best Genres of Movies</label></h5>
+
+<input type="checkbox" name='genre'
+/>Hollywood
+
+<input type="checkbox" name='genre'
+/>Bollywood
+<br>
+<input type="checkbox" name='genre'
+/>Ghannywood
+
+<input type="checkbox" name='genre'
+/>Nollywood
+
+<input type="checkbox" name='genre'
+/>Nollywood
+
+<div>
+<label>State of Origin</label>
+<select name='state'>
+<option value='state'>state of origin</option>
+
+<option value='state'>Lagos</option>
+
+<option value='state'>ondo</option>
+<option value='state'>kaduna</option>
+<option value='state'>imo</option>
+</select>
+
+</div>
+
+
+
+<div>
+<input type='submit' value='Register'/><a href=SPY+DADDY+-+Jackie+Chan+In+Hollywood+Action+Comedy+Full+Movie+In+English+_+New+English+Movies.mp4''>
+<input type='Reset' value='Reset'/>
+</div>
+
+</div>
+</div>
+</div>
+</body>
+
+
+</html>
+
+</form>
+
+
+</body>
+</html>

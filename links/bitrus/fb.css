@@ -1,0 +1,59 @@
+		div{
+		border:0px solid teal;
+		min-height:100px;
+		}
+		.fp{
+		text-decoration:none;
+		
+		}
+		
+		table{
+		background-color:white
+		}
+		
+		body{
+		font-family: inherit,;
+		background-color:rgba(240, 242, 245, 1);
+		
+		}
+		
+		
+		span a{
+		 color:black;
+		 font-weight:bold;
+		 text-decoration:none;
+		}
+		
+		a:hover{
+		text-decoration:underline;
+		}
+		span a:hover{
+		color:black
+		}
+		
+		.white{
+		background-color:#FFFFFFff;
+		
+		
+		}
+		
+		.margin{
+		margin-left:23%;
+		margin-top:7%;
+		}
+		
+		h1{
+		font-size:60px;
+		font-weight:bold
+		}
+		
+		h2{
+		
+		font-weight:normal;
+		font-size:28px
+		}
+		
+		.h{
+		min-height:20px
+		}
+		

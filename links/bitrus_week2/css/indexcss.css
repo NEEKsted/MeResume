@@ -1,0 +1,180 @@
+	body{
+		font-size:2vw;
+		background-image:url('../images/casagrandes.jpg');
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-size:cover;
+		opacity:1.0;
+		margin:4%;
+		}
+				
+.overlay{
+		background-color:rgba(0,0,0,0.4)
+	}
+
+.header{
+		display:flex;
+		position:sticky; top:0px;
+		background-color:rgba(229, 230, 228, 0.9);
+		
+	}
+
+.headerone{
+	width:10%;
+	height:40px;
+	border-radius:0 90% 0  70%;
+	position:relative; top: 30px;
+	font-family:impact,'arial black', san serif;
+	background-color:rgb(241, 113, 5);
+	font-size:50%;
+	padding:3%;
+
+	}
+	
+.paragraph{
+	line-height: 0.3;
+	}
+	
+.headerone:hover{
+	font-family:'arial black',impact, sans-serif;
+	font-weight:bold;
+	width:15%;
+	background-color:rgba(241, 113, 5,0.9);
+	}
+	
+.headerone, .headertwo{
+	margin:auto;
+	}
+	
+	
+.headertwo{
+	margin:auto
+	}
+	
+	
+.link{
+		text-decoration:none;
+		list-style-type:none;
+		font-family:impact, arial, sans serif;
+		color:rgb(255, 136, 17);
+		border:3px ridge rgb(241, 113, 5);
+	}
+
+li{
+	display:inline-block;
+	}
+	
+	
+#content{
+		display:flex;
+		padding:5% 10% 1% 10%;
+		justify-content:space-between
+	}
+
+#overlay{
+	background-color: rgba(100, 100, 0, 0.2);
+}
+
+#contentone{
+	padding-left:1% 5%;
+	background-color: rgba(229, 230, 228, 0.9);
+	margin: 10% 0%;
+	}
+
+h2,p{
+	text-align:center;
+	}
+
+p	{
+	font-family:arial, verdana,sans-serif;
+	font-size:0.9vw;
+	}
+#funtimes{
+	font-family:Claredon, 'times new roman', serif;
+	background-color:orange;`
+	}
+
+#one{
+	display:flex;
+	justify-content:space-around;
+	padding:4px;
+	}
+	
+.tickets{
+	width:80%;
+	height:50px;
+	margin-left:10%;
+	}
+	
+#soon{
+	justify-content:space-around;
+	}
+	
+a{
+	text-decoration:none;
+	color:gray;
+	text-weight:bold;
+	}
+	
+.inlay{
+	background-color:rgba(239, 241, 243, 1);
+	margin:5%;
+}
+	
+	#contenttwo{
+	margin:3%;
+	background-color:rgba(0, 0, 0, 0.1);
+	padding:5%;
+	
+		
+	}
+
+	.terms{
+	width:23%;
+	position:absolute; top:px;
+	margin-left:5%;
+	background-color:#eaeaeaff;
+	}
+	
+	#services{
+	display:flex;
+	justify-content:space-around;
+	
+	}
+
+	#serviceone{
+	width:25%;
+	height:300px;
+	}
+
+	img{
+		width:40px;
+	}
+	
+	img:hover{
+		width:100%;
+		height:80px;
+		
+	}
+
+	#social{
+		position:fixed; bottom:20px;
+		position:fixed; right:30px;
+		display:float;
+	}
+	
+	#socials{
+	display:float;
+	}
+	
+	embed{
+	box-shadow:10px 10px grey;
+	}
+	
+	#watch{
+	background-color:rgba(241, 113, 5,0.9);
+	}
+
+	.footer{
+		height:60px;
+	}
